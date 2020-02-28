@@ -46,8 +46,4 @@ You can re-attach to the screen session when ever by running `screen -ls` & then
 
 
 
-#### Donate or Vote for us on Enigma Blockchain Mainnet  :D 
-Donation address: `enigma1hscf4cjrhzsea5an5smt4z9aezhh4sf5scqgr2`
-
-
 
