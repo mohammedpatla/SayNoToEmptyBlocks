@@ -1,0 +1,4 @@
+#!/bin/bash
+
+enigmacli tx send <key-alias> <account-to-send-to> 500uscrt --memo SayNoToEmptyBlocks-ChainOfSecrets.org-1jPJAYfzu0vvqPMNqbloYJMoCGZ0dkbJA8aOcJ0DSdr75WCb024ERfgspZ4ARHkF8xgVbjokupXUCogZ9Dpj8ufoHQf1yJZj4fkN7EDtRpDfgNjc6S1IONHsJPutQo1UCqW07XNlDCzFE0S3JC053D8QkKvGRkmSn7nISLNrC7B9cmcdW2oeW6SnUCFPQhUg2AowGihK --yes
+
