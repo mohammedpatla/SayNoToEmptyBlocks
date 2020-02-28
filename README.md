@@ -1,4 +1,4 @@
-# SayNoToEmptyBlocks
+# #SayNoToEmptyBlocks
 A ChainofSecrets.org fun initiative to fill blocks on Enigma Blockchain at Bootstrap!
 
 
