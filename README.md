@@ -11,4 +11,14 @@ sudo apt-get install expect
 ```bash
 sudo apt-get install expect-dev
 ```
-
+#### 2. Clone this wonderful repo!
+```bash
+git clone https://github.com/chainofsecrets/SayNoToEmptyBlocks/
+```
+```bash
+cd /SayNoToEmptyBlocks
+```
+#### 3. Run this command to capture your key-alias password
+```bash
+autoexpect -f sending-pass.exp bash send.sh
+```
