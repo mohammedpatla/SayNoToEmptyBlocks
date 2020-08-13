@@ -1,4 +1,2 @@
 #!/bin/bash
-
-enigmacli tx send <key-alias> <account-to-send-to> 500uscrt --memo SayNoToEmptyBlocks-ChainOfSecrets.org-1jPJAYfzu0vvqPMNqbloYJMoCGZ0dkbJA8aOcJ0DSdr75WCb024ERfgspZ4ARHkF8xgVbjokupXUCogZ9Dpj8ufoHQf1yJZj4fkN7EDtRpDfgNjc6S1IONHsJPutQo1UCqW07XNlDCzFE0S3JC053D8QkKvGRkmSn7nISLNrC7B9cmcdW2oeW6SnUCFPQhUg2AowGihK --yes
-
+secretcli tx send secret1fdrcpf7c6ha0say3r8hsxydmgzstqsg93lq9l9 secret1m29qmes5p8dfkgyjy5x6ynz9qkfh5y4qmm80ca 10uscrt --chain-id=enigma-pub-testnet-2 --gas 100000 --sequence $1
