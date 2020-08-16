@@ -1,5 +1,5 @@
 # #SayNoToEmptyBlocks
-A ChainofSecrets.org fun initiative to fill blocks on Enigma Blockchain at Bootstrap!
+An inntiative to stresstest TX/Block using one address and sequence
 ###### This should only be installed on a fullnode not a validator, as it exposes your key in plaintext
 
 
