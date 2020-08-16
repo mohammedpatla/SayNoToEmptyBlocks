@@ -33,7 +33,7 @@ nano send.sh
 nano signmultipl.exp
 nano verifysingle.exp
 ```
-You can see using `cat sending-pass.exp` that it stores your key-alias password in plaintext >=\
+You can see using `cat signmultipl.exp` that it stores your key-alias password in plaintext >=\
 
 #### 5. Now get your sequence number as you will need it in the following commands , run:
 
