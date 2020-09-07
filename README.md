@@ -19,6 +19,11 @@ git clone https://github.com/mohammedpatla/SayNoToEmptyBlocks
 ```bash
 cd /SayNoToEmptyBlocks
 ```
+#### 2.1 Make all scripts in this folder executables ( this for permittions or you wont be able to execute them below
+```bash
+sudo chmod +x <name-of-script>.sh
+```
+
 #### 3. Modify send.sh with your fullnodes `key-alias` & the `account your sending transactions to` (This is your indivdual send TX that will run in SEQ)
 ###### Make sure to fund your fullnode's account with some SCRT first !
 ###### Note that this will be used by expect to create a sequence of TX.
@@ -30,7 +35,7 @@ nano send.sh
 ###### Replace "<-password->\r" with your Key-ring password.
 
 ```bash
-nano signmultipl.exp
+nano signmultiple.exp
 nano verifysingle.exp
 ```
 You can see using `cat signmultipl.exp` that it stores your key-alias password in plaintext >=\
@@ -39,6 +44,13 @@ You can see using `cat signmultipl.exp` that it stores your key-alias password i
 
 ```bash
 secretcli q account <-Account-Address->
+```
+
+##### 5.1 Modify loopmultiple.sh  with your fullnodes `key-alias` & the `account your sending transactions to` (This is your indivdual send TX that will run in SEQ when signing the TXs)
+###### Note that this will be used by expect to insert your Account Number from above
+
+```bash
+nano loopmultiple.sh
 ```
 
 #### 6. Now we run the loop to sign all the trasnactions, this be fefault does 300 TX, but you can change it by changing the for loop in `loopmultiple.sh`
